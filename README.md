@@ -1,8 +1,6 @@
 # PacketMonitor
 ESP8266 + OLED = WiFi Packet Monitor 
 
-.Add support to LCD Nokia 5110
-
 ![PacketMonitor running on D-Duino board](https://raw.githubusercontent.com/spacehuhn/PacketMonitor/master/images/dduino_2.jpg)
 
 **Support me and my projects on [Patreon](https://www.patreon.com/spacehuhn)!**  
