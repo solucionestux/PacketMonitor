@@ -11,7 +11,7 @@ Add Nokia 5110 LCD support
 
 I will support the Nokia 5110 LCD to display the captured packets in the network.
 
-![LCD Nokia 5110](https://raw.githubusercontent.com/SolucionesTux/PacketMonitor/master/images/lcdnokia.jpg)
+![LCD Nokia 5110](https://raw.githubusercontent.com/SolucionesTux/PacketMonitor/master/images/nokialcd.jpg)
 
 ## Introduction
 
