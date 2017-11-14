@@ -1,7 +1,7 @@
 # PacketMonitor
 ESP8266 + OLED = WiFi Packet Monitor 
 
-![PacketMonitor running on D-Duino board](https://raw.githubusercontent.com/spacehuhn/PacketMonitor/master/images/dduino_2.jpg)
+![PacketMonitor running on D-Duino board](https://raw.githubusercontent.com/solucionestux/PacketMonitor/master/images/dduino_2.jpg)
 
 
 ## Version Soluciones Tux  
@@ -11,6 +11,7 @@ Add Nokia 5110 LCD support
 
 I will support the Nokia 5110 LCD to display the captured packets in the network.
 
+![LCD Nokia 5110](https://raw.githubusercontent.com/SolucionesTux/PacketMonitor/master/images/lcdnokia.jpg)
 
 ## Introduction
 
@@ -18,9 +19,9 @@ Did you ever wonder how many data packets are flying around you right now?! This
 
 It's not limited to one network, it scans all traffic on one channel.  
 
-![PacketMonitor running on a Wemos D1 Mini + SSD1302 OLED](https://raw.githubusercontent.com/spacehuhn/PacketMonitor/master/images/custom_build.jpg)
+![PacketMonitor running on a Wemos D1 Mini + SSD1302 OLED](https://raw.githubusercontent.com/solucionestux/PacketMonitor/master/images/custom_build.jpg)
 
-You can see peaks whenever a device starts surfing the web and it will also warn you when a deauthentication attack is going on the selected channel! (For more info please see my [DeauthDetector](https://github.com/spacehuhn/DeauthDetector) project.)
+You can see peaks whenever a device starts surfing the web and it will also warn you when a deauthentication attack is going on the selected channel! (For more info please see my [DeauthDetector](https://github.com/solucionestux/DeauthDetector) project.)
 
 [![WiFi Packet-Monitor ESP8266](https://img.youtube.com/vi/RGkqemAGbjU/0.jpg)](https://youtu.be/RGkqemAGbjU)
 
@@ -33,7 +34,7 @@ This version here will come preflashed with this project:
 
 (By your purchase you also support me and my projects!)  
 
-[D-Duino board](https://raw.githubusercontent.com/spacehuhn/PacketMonitor/master/images/dduino_1.jpg)
+[D-Duino board](https://raw.githubusercontent.com/solucionestux/PacketMonitor/master/images/dduino_1.jpg)
 
 Plese be aware that there are fake D-Duino boards out there, labeled with "Wemos" instead of DSTIKE. They are not made by Wemos, these boards are just cheap fakes - they can work, but I would recomment to step away from them.  
 
@@ -80,7 +81,7 @@ Then connect the button between GND and the button PIN from the code.
 
 ### Uploading the .bin file
 
-Go to [releases](https://github.com/spacehuhn/PacketMonitor/releases) and download the latest .bin file.  
+Go to [releases](https://github.com/solucionestux/PacketMonitor/releases) and download the latest .bin file.  
 Upload the `PacketMonitor.bin` using the [esptool-gui](https://github.com/Rodmg/esptool-gui), [nodemcu-flasher](https://github.com/nodemcu/nodemcu-flasher) **or** the [esptool](https://github.com/espressif/esptool) from Espressif.
 
 ### Using Arduino
@@ -115,7 +116,7 @@ Plug it in and see the WiFi traffic around you!
 
 You can change the channel by clicking on the button, it will remember your channel selection even when you unplug it.  
 
-If the LED lights up, that means that it recognized a lot of deauthentication or disassociation frames on that channel which could indicate a deauthentication attack. More on that on my other project [esp8266_deauther](https://github.com/spacehuhn/esp8266_deauther).
+If the LED lights up, that means that it recognized a lot of deauthentication or disassociation frames on that channel which could indicate a deauthentication attack. More on that on my other project [esp8266_deauther](https://github.com/solucionestux/esp8266_deauther).
 
 ## License
 
